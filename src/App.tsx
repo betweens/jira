@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 // import './App.css';
-import ProjectList from './screens/index';
+// import ProjectList from './screens/projectList/index';
+// import TsReactTest from './screens/TsReactTest';
+
+import LoginScreen from './screens/login/LoginScreen';
 
 function App() {
   return (
@@ -9,7 +12,9 @@ function App() {
       <header className="App-header">
         Learn React
       </header>
-      <ProjectList />
+      <LoginScreen />
+      {/* <TsReactTest /> */}
+      {/* <ProjectList /> */}
     </div>
   );
 }

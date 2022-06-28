@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import SearchPanel from "./projectList/SearchPanel";
-import List from "./projectList/List";
+import SearchPanel from "./SearchPanel";
+import List from "./List";
 
 const API_URL = process.env.REACT_APP_SERVER_URL;
 
