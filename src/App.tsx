@@ -1,22 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-// import './App.css';
-// import ProjectList from './screens/projectList/index';
-// import TsReactTest from './screens/TsReactTest';
-
-import LoginScreen from './screens/login/LoginScreen';
+import './App.css'
+// import ProjectList from './screens/project-list'
+// import TryUseArray from './screens/try-use-array'
+import LoginScreen from './screens/login'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Learn React
-      </header>
-      <LoginScreen />
-      {/* <TsReactTest /> */}
-      {/* <ProjectList /> */}
-    </div>
-  );
+	return (
+		<div className="App">
+			{/* <ProjectList /> */}
+			{/* <TryUseArray /> */}
+			<LoginScreen />
+		</div>
+	)
 }
 
-export default App;
+export default App
